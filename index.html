@@ -1,65 +1,76 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>CV avec Menu et Slides</title>
-<link rel="stylesheet" href="css/style.css" />
-<script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script defer src="js/load-nav.js"></script>
-<script defer src="js/script.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Accueil - Ilyes BEN AHMED</title>
+
+  <link rel="stylesheet" href="css/stylecv.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script defer src="js/load-nav.js"></script>
+  <script defer src="js/script.js"></script>
 </head>
 <body>
 
-<!-- Menu -->
-   <div id="nav-container"></div>
-<nav>
-  <ul class="menu-left">
-    <li><a href="acceuil.html">Accueil</a></li>
-  </ul>
-  <ul class="menu-right">
-    <li>
-      <a href="#">Portfolio</a>
+  <!-- Menu fixe -->
+  <div id="nav-container">
+    <iframe src="components/menu.html"></iframe>
+  </div>
+
+  <div class="container" style="padding-top: 80px;"> <!-- espace sous le menu -->
+
+    <!-- Section Intro / Hero -->
+    <center>
+    <section class="about" style="text-align: center; margin: 50px 0;">
+      <h1>Bienvenue sur mon portfolio</h1>
+      <p>Je suis <strong>Ilyes BEN AHMED</strong>, étudiant en BTS SIO, passionné par le développement web et les technologies modernes.</p>
+      <a href="cv.html"><button>Voir mon CV</button></a>
+    </section>
+
+    <!-- Section À propos -->
+    <section class="about" style="margin: 50px 0;">
+      <h2>À propos de moi</h2>
+      <p>
+        Curieux et motivé, j’aime apprendre de nouvelles technologies et transformer des idées en projets concrets.
+        Je suis toujours à la recherche de nouveaux défis et d’opportunités pour développer mes compétences.
+      </p>
+    </section>
+
+    <!-- Section Compétences -->
+    <section class="about" style="margin: 50px 0;">
+      <h2>Mes compétences</h2>
       <ul>
-        <li><a href="tp.html">TPs</a></li>
-        <li><a href="projet.html">Projets</a></li>
-        <li><a href="stagesio1.html">Stage SIO1</a></li>
-        <li><a href="stagesio2.html">Stage SIO2</a></li>
+        <li>Développement web : HTML, CSS, JavaScript, PHP</li>
+        <li>Bases de données : MySQL, MongoDB</li>
+        <li>Administration système et réseaux</li>
+        <li>Gestion de projet et outils collaboratifs</li>
+        <li>Curiosité et résolution de problèmes</li>
       </ul>
-    </li>
-    <li>
-      <a href="#">Documents</a>
+    </section>
+
+    <!-- Section Projets -->
+    <section class="about" style="margin: 50px 0;">
+      <h2>Projets récents</h2>
       <ul>
-        <li><a href="cv.html">CV</a></li>
-        <li><a href="lm.html">Lettre de motivations</a></li>
-        <li><a href="conventionnstagesio1.html">Convention SIO1</a></li>
-        <li><a href="conventionstagesio2.html">Convention SIO2</a></li>
+        <li>Création d’un site web responsive</li>
+        <li>Moteur d’inférence en C</li>
+        <li>Installation et configuration de machines virtuelles</li>
       </ul>
-    </li>
-    <li>
-      <a href="#">Veille</a>
-      <ul>
-        <li><a href="theme1.html">Thème 1</a></li>
-        <li><a href="theme2.html">Thème 2</a></li>
-      </ul>
-    </li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
+      <a href="projet.html"><button>Voir mes projets</button></a>
+    </section>
 
+    <!-- Section Contact rapide -->
+    <section class="about" style="text-align: center; margin: 50px 0;">
+      <h2>Contactez-moi</h2>
+      <p>Email : <a href="mailto:ilyes.benahmed60@gmail.com">ilyes.benahmed60@gmail.com</a></p>
+      <p>Téléphone : <a href="tel:+33749561025">07 49 56 10 25</a></p>
+      <a href="contact.html"><button>Page Contact</button></a>
+    </section>
+  </center>
 
-<!-- Slides CV -->
- <div id="nav-container">
-        <iframe src="components/menu.html"> </iframe>
-
-    </div>
-<!-- Navigation slides -->
-<div class="nav-buttons">
-  <button id="prev">◀ Précédent</button>
-  <button id="next">Suivant ▶</button>
-</div>
-
-<script src="js/script.js"></script>
+  </div>
 
 </body>
 </html>
