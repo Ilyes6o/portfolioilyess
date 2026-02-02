@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - Ilyes BEN AHMED</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/stylecv.css" />
+  <link rel="stylesheet" href="css/stylecontact.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Scripts du menu -->
+  <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script defer src="js/load-nav.js"></script>
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <header>
+    <div id="nav-container">
+      <iframe src="components/menu.html"></iframe>
+    </div>
+  </header>
+
+  <!-- Conteneur principal -->
+  <div class="container">
+    <h1>Contact</h1>
+
+    <section class="contact-info">
+      <p>Email : <a href="mailto:ilyes.benahmed60@gmail.com">ilyes.benahmed60@gmail.com</a></p>
+      <p>Téléphone : <a href="tel:+33749561025">07.49.56.10.25</a></p>
+      <p>
+        <a href="https://www.linkedin.com/in/ilyes-ben-ahmed-2639a6388/" target="_blank" rel="noopener noreferrer">
+          Mon Linkedin
+        </a>
+      </p>
+    </section>
+
+    <div class="contact-wrapper">
+
+      <!-- Formulaire -->
+      <div class="contact-form">
+        <h2>Contactez-moi</h2>
+        <form action="https://formspree.io/f/mnngzwbv" method="POST">
+          <label for="prenom">Prénom :</label>
+          <input type="text" id="prenom" name="prenom" required />
+
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom" required />
+
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="_replyto" required />
+
+          <label for="message">Message :</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Envoyer</button>
+        </form>
+      </div>
+
+      <!-- Carte -->
+      <div class="contact-map">
+        <h2>Localisation</h2>
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.289875918074!2d2.2967233124286888!3d49.89336092719957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e785a992330b55%3A0x2764f193322d5451!2zTHljw6llIHN0IFLDqW1p!5e0!3m2!1sfr!2sfr!4v1758555848165!5m2!1sfr!2sfr" 
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

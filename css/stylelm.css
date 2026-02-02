@@ -1,0 +1,82 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fond général */
+body {
+  background-color: #0f0f23;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  padding: 40px 20px;
+}
+
+/* Conteneur principal */
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #1c1c3a;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(245, 0, 87, 0.7);
+}
+
+/* Titres */
+h1 {
+  color: #f50057;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+/* Adresse */
+address p {
+  color: #ddd;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+address a {
+  color: #ff5c8d;
+  text-decoration: none;
+}
+
+address a:hover {
+  color: #f50057;
+  text-decoration: underline;
+}
+
+/* Section destinataire */
+.destinataire p {
+  color: #ddd;
+  font-style: normal;
+  margin-bottom: 40px;
+}
+
+/* Section intro */
+.intro p {
+  font-weight: bold;
+  color: #ff5c8d;
+  font-size: 1.1rem;
+}
+
+/* Corps de la lettre */
+.corps p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #ddd;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}

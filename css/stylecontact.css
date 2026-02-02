@@ -1,0 +1,125 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fond général */
+body {
+  background-color: #0f0f23;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  padding: 40px 20px;
+}
+
+/* Conteneur principal */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #1c1c3a;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(245, 0, 87, 0.7);
+}
+
+/* Titres */
+h1 {
+  color: #f50057;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+h2 {
+  color: #ff5c8d;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+/* Liens */
+a {
+  color: #ff5c8d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f50057;
+  text-decoration: underline;
+}
+
+/* Section contact-info */
+.contact-info p {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+/* Conteneur formulaire + carte */
+.contact-wrapper {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+/* Formulaire */
+.contact-form {
+  flex: 1 1 400px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-form button {
+  background-color: #f50057;
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #ff5c8d;
+}
+
+/* Carte */
+.contact-map {
+  flex: 1 1 400px;
+}
+
+.contact-map iframe {
+  width: 100%;
+  height: 320px;
+  border-radius: 12px;
+  border: none;
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+  .contact-wrapper {
+    flex-direction: column;
+  }
+}
