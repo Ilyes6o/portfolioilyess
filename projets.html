@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TP - Ilyes BEN AHMED</title>
+
+  <!-- Même feuilles de style que CV / Contact / LM -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/stylecv.css" />
+  <link rel="stylesheet" href="css/styletp.css"/>
+  <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script defer src="js/load-nav.js"></script>
+  <script defer src="js/script.js"></script>
+</head>
+
+<body>
+
+  <!-- Menu -->
+  <div id="nav-container">
+    <iframe src="components/menu.html"></iframe>
+  </div>
+
+
+  <!-- slide -->
+<div class="slide" data-index="0">
+<section class="tp">
+<!-- slide -->
+<section class="services">
+  <div class="stat">
+    <section class="tp">
+      <h1>PROJET UBUNTU</h1>
+      <h2>VM Ubuntu </h2>
+      <p><strong>Domaine :</strong> Réseau Informatique</p>
+      Ce projet consiste en la mise en place de A à Z d'un environnement 
+      Linux virtualisé. L'objectif était de transformer une simple image 
+      ISO en une station de travail opérationnelle, optimisée pour les 
+      performances et sécurisée dès le premier démarrage.
+</section>
+</section>
+</div>
+<!-- fin slide -->
+</section>
+</div>
+<!-- fin slide -->
+
+ <!-- slide -->
+<div class="slide" data-index="1">
+<section class="tp">
+<!-- slide -->
+<section class="services">
+    <section class="tp">
+      <h1>Etape 1</h1>
+      <h2> Installation d'une distribution Xubuntu</h2>
+      <p></p>
+      Création de l'architecture matérielle virtuelle (RAM, CPU, Disque).
+       L'enjeu est de dimensionner correctement les ressources pour que la
+        VM soit fluide sans ralentir l'ordinateur physique.
+</section>
+</section>
+<!-- fin slide -->
+</section>
+</div>
+<!-- fin slide -->
+
+
+ <!-- slide -->
+<div class="slide" data-index="2">
+<section class="tp">
+<!-- slide -->
+<section class="services">
+    <section class="tp">
+      <h1>Etape 2</h1>
+      <h2> Installation d'une distribution Xubuntu</h2>
+      <p></p>
+      Création de l'architecture matérielle virtuelle (RAM, CPU, Disque).
+       L'enjeu est de dimensionner correctement les ressources pour que la
+        VM soit fluide sans ralentir l'ordinateur physique.<br>
+        <button onclick="window.open('vm/TP VM UBUNTU ETAPE 2.pdf', '_blank')">Etape 2</button>
+</section>
+</section>
+<!-- fin slide -->
+</section>
+</div>
+<!-- fin slide -->
+
+ <!-- slide -->
+<div class="slide" data-index="3">
+<section class="tp">
+<!-- slide -->
+<section class="services">
+    <section class="tp">
+      <h1>Etape 3</h1>
+      <h2> Première connexion et environnement de travail</h2>
+      <p></p>
+  Utilisation des commandes sudo apt update et upgrade. 
+  C’est la première barrière de sécurité : on s'assure que 
+  tous les logiciels et le noyau Linux sont à jour avec les derniers correctifs.<br>
+  <button onclick="window.open('vm/TP VM UBUNTU ETAPE 3.pdf', '_blank')">Etape 3</button>
+</section>
+</section>
+<!-- fin slide -->
+</section>
+</div>
+<!-- fin slide -->
+
+
+
+ <!-- slide -->
+<div class="slide" data-index="4">
+<section class="tp">
+<!-- slide -->
+<section class="services">
+    <section class="tp">
+      <h1>Etape 4</h1>
+      <h2>Installation et configuration des addons-invités de VirtualBox</h2>
+      <p></p>
+  Paramétrage des cartes réseaux virtuelles (NAT pour l'accès web,
+   Pont pour simuler une machine réelle sur le réseau). Indispensable
+   pour que la VM puisse communiquer avec l'extérieur.<br>
+   <button onclick="window.open('vm/TP VM UBUNTU ETAPE 4.pdf', '_blank')">Etape 4</button>
+</section>
+<!-- fin slide -->
+</section>
+</div>
+<!-- fin slide -->
+
+
+ <!-- slide -->
+<div class="slide" data-index="5">
+<section class="tp">
+<!-- slide -->
+<section class="services">
+    <section class="tp">
+      <h1>Etape 5</h1>
+      <h2> Gestion des utilisateurs</h2>
+      <p></p>
+  Installation des pilotes spécifiques à l'hyperviseur.
+   Cela permet d'activer le plein écran, le copier-coller 
+   entre l'hôte et la VM, et le partage de dossiers pour plus
+    de productivité.<br>
+    <button onclick="window.open('vm/TP VM UBUNTU ETAPE 5.pdf', '_blank')">Etape 5</button>
+</section>
+<!-- fin slide -->
+</section>
+</div>
+<!-- fin slide -->
+
+
+<!-- slide -->
+<div class="slide" data-index="5">
+<section class="tp">
+<!-- slide -->
+<section class="services">
+    <section class="tp">
+      <h1>Etape 6</h1>
+      <h2>  Installation d'outils essentiels</h2>
+      <p></p>
+ L'étape 6 se concentre sur l'installation d'outils essentiels pour la gestion et la sécurité
+  des réseaux sur Ubuntu. Parmi les outils disponibles dans les dépôts, on trouve VLC, un lecteur
+   multimédia, et Nmap, qui permet de scanner les réseaux et de détecter les services actifs.
+    Wireshark est également installé pour l'analyse du trafic réseau, tandis que Fail2ban protège
+     contre les attaques par force brute en bloquant les adresses IP suspectes. En ajoutant un dépôt 
+     tiers, Suricata est installé comme un système de détection et de prévention des intrusions (IDS/IPS).
+      De plus, des outils comme Packet Tracer, utilisé pour simuler des infrastructures réseau, et Burp Suite,
+       qui sert à analyser la sécurité des applications web, sont également configurés. Ensemble, ces outils 
+       offrent une base solide pour l'administration réseau et la cybersécurité, permettant aux utilisateurs 
+       de mieux comprendre et sécuriser leurs environnements numériques.<br>
+       <button onclick="window.open('vm/TP VM UBUNTU ETAPE 6.pdf', '_blank')">Etape 6</button>
+</section>
+<!-- fin slide -->
+</section>
+</div>
+<!-- fin slide -->
+
+  <!-- Navigation entre slides -->
+  <div class="nav-buttons">
+    <button id="prev">◀ Précédent</button>
+    <button id="next">Suivant ▶</button>
+  </div>
+
+
+</body>
+</html>
+</html>
